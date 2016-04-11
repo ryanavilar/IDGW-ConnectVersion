@@ -99,7 +99,7 @@ body{
 }
 
 .opening{
-  background-image: url("/img/bne2.png")  !important;
+  background-image: url("../img/bne2.png")  !important;
   background-size: cover;
   background-position: right; 
 }
