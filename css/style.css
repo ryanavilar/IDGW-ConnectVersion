@@ -1,0 +1,188 @@
+.connect-navbar{
+  background-color: #4095FF;
+  border-color: navy;
+}
+
+.connect-navbar .navbar-nav>li>a:hover{
+  background-color: #2FB2E8;
+}
+
+.connect-navbar .navbar-nav>li>a {
+    color: #fff;
+}
+
+.connect-navbar .navbar-brand {
+    color: #fff;
+}
+
+.connect-navbar .navbar-nav>.active>a{
+  color: #fff;
+  background-color: #1B5EB2;
+}
+
+.connect-navbar .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #ddd;
+}
+
+.connect-navbar.navbar-toggle {
+    border-color: #ddd;
+}
+
+.connect-navbar .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+
+.navbar-toggle{
+  background-color: #ddd !important;
+}
+
+.top-news{
+  background-color: #CC6116;
+}
+
+.top-news:hover{
+  background-color: #CC6140;
+}
+
+.top-news>.container>p{
+  margin-top: .5em;
+  color: white;
+}
+
+.id-well{
+  background-color: #fff !important;
+  margin-bottom: 0px !important;
+}
+
+.logo{
+  width: 1.2em;
+  float: left;
+}
+
+.logo-txt{
+  float: left;
+  margin-left: .3em;
+}
+
+.animate{
+    top:-100px !important;
+    transform: translate(0,100px);
+    -webkit-transform: translate(0,100px);
+    -o-transform: translate(0,100px); 
+    -moz-transform: translate(0,100px);
+}
+
+.navbar{
+  -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+
+body{
+  font-family: 'Lato' !important;
+  font-weight: 300;
+}
+
+.container{
+  padding-right: 40px !important;
+  padding-left: 40px !important;
+}
+
+.seemore{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.seemore-xs{
+    margin-bottom: 10px;
+}
+
+.opening{
+  background-image: url("/img/bne2.png")  !important;
+  background-size: cover;
+  background-position: right; 
+}
+
+.footer-bottom{
+  margin-top: 1.7em;
+}
+
+@media only screen and (max-width: 768px) {
+  .opening{
+    background-color: #fff;
+    background-image: none !important;
+  }
+  .container{
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+}
+
+/* Footer */
+.copyright{
+  padding-top: .9em;
+  padding-bottom: .5em;
+}
+
+.social-media, .idgw-about
+{   
+    list-style-type: none;
+}
+
+.social-media li a{
+  text-decoration: none;
+    color: white;
+}
+
+.social-media li:hover{
+    background-color: black;
+}
+
+
+.social-media li{
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: auto;
+    padding: 10px;
+    background-color: #aaa;
+    border-radius: 50%;
+    color: white;
+}
+
+.logo-big{
+  width: 3.2em;
+  //float: left;
+}
+
+.logo-text-big{
+  //float: left;
+  font-size: 2em;
+  margin-left: .3em;
+}
+
+.meaning{
+    font-size: .8em;
+    font-weight: 500;
+    position: relative;
+    float: left;
+    right: -5.19em;
+    top: -1.4em;
+}
+
+
+.idgw-about{
+  padding-left: 0px;
+}
+
+.idgw-about li a {
+  text-decoration: none;
+  color:grey;
+}
+
+
+.idgw-about li a:hover, {
+  color:black;
+}
+
